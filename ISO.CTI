@@ -1,0 +1,74 @@
+Disc CDROMXA_PSX
+
+LeadIn XA
+  Empty 1350
+  PostGap 150
+EndTrack
+
+Track XA
+  Pause 150
+  Volume ISO9660
+    SystemArea licensea.dat
+    PrimaryVolume
+      SystemIdentifier PLAYSTATION
+      VolumeIdentifier TIMEWARP
+      VolumeSetIdentifier PLAYSTATION
+      PublisherIdentifier PLAYSTATION
+      ApplicationIdentifier PLAYSTATION
+      LPath
+      OptionalLpath
+      MPath
+      OptionalMpath
+      Hierarchy
+        File SYSTEM.CNF
+          XAFileAttributes Form1 Data
+          Source f:\timewarp\iso\SYSTEM.CNF
+        EndFile
+        File TIMEWARP.DL2
+          XAFileAttributes Form1 Data
+          Source f:\timewarp\iso\TIMEWARP.DL2
+        EndFile
+        File TIMEWARP.PAL
+          XAFileAttributes Form1 Data
+          Source f:\timewarp\iso\TIMEWARP.PAL
+        EndFile
+        File README.TXT
+          XAFileAttributes Form1 Data
+          Source f:\timewarp\iso\README.TXT
+        EndFile
+        File SOURCE.ZIP
+          XAFileAttributes Form1 Data
+          Source f:\timewarp\iso\SOURCE.ZIP
+        EndFile
+        File DISC.ID
+          XAFileAttributes Form1 Data
+          Source f:\timewarp\iso\DISC.ID
+        EndFile
+        File ASSETS.DAT
+          XAFileAttributes Form1 Data
+          Source f:\timewarp\iso\ASSETS.DAT
+        EndFile
+        File MOVIES.BIN
+          XASource f:\timewarp\iso\MOVIES.BIN
+        EndFile
+        File SADEMO.STR
+          XASource f:\timewarp\iso\SADEMO.STR
+        EndFile
+        File DUMMY.DAT
+          XAFileAttributes Form1 Data
+          Source f:\timewarp\iso\DUMMY.DAT
+        EndFile
+        File MANUAL.PDF
+          XAFileAttributes Form1 Data
+          Source f:\timewarp\iso\MANUAL.PDF
+        EndFile
+      EndHierarchy
+    EndPrimaryVolume
+  EndVolume
+EndTrack
+
+LeadOut XA
+  Empty 150
+EndTrack
+
+EndDisc
